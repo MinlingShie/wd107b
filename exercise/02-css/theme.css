@@ -12,7 +12,7 @@ p,hr{
     text-align: center;
     color: black;
     font-family: Arial;
-    margin: 10px;
+    margin: 20px;
     max-width: 500px;
 }
 hr{
@@ -30,6 +30,8 @@ button{
 table{
     margin-left: auto;
     margin-right: auto;
+    max-width: 500px;
+
 }
 td,th{
     background-color:white;
@@ -40,7 +42,13 @@ td,th{
     border:2px solid #FFFFF0;
 }
 form{
-    width: 500px;
     max-width: 500px;
     text-align: center;
+}
+input{
+    margin: 10px;
+    padding: 10px;
+}
+.classA{
+    width: 20em;
 }

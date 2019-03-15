@@ -6,17 +6,123 @@
         <link rel="stylesheet" type="text/css" href="theme.css">
     </head>
     <body>
-        <h1>專業實習（一）教學助理調查表單</h1>
-        <p>感謝各位同學願意擔任專業實習的教學助理(以下簡稱ＴＡ)，下列問題為接下來幫各位安排組別、保險及請公假之用途，請各位ＴＡ認真填寫。若有任何疑問，請詢問系辦、負責老師或其ＴＡ，感謝各位配合。</p>
-        <hr>
-        <div>
-            <h2>基本資料</h2>
-            <form>
-                <p>
-                    姓名： <input type="test" name="姓名"><br>
-                    系級：<input type="radio" name="系級" value="長照四">長照四；<input type="radio" name="系級" value="長照三">長照三<br>
-                </p>
-            </form>
-        </div>
+        <form>
+            <h1>專業實習（一）教學助理調查表單</h1>
+            <p>感謝各位同學願意擔任專業實習的教學助理(以下簡稱ＴＡ)，下列問題為接下來幫各位安排組別、保險及請公假之用途，請各位ＴＡ認真填寫。若有任何疑問，請詢問系辦、負責老師或其ＴＡ，感謝各位配合。</p>
+            <hr/>
+            <div>
+                <h2>基本資料</h2>
+                <table>
+                    <tr>
+                        <th>姓名</th>
+                        <td><input type="test" name="姓名"></td>
+                    </tr>
+                    <tr>    
+                        <th rowspan="2">系級</th>
+                        <td><input type="radio" name="系級" value="長照四">長照四</td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="系級" value="長照三">長照三</td>
+                    </tr>
+                    <tr>
+                        <th>學號</th>
+                        <td><input type="test" name="學號"></td>
+                    </tr>
+                    <tr>
+                        <th>聯絡電話</th>
+                        <td><input type="tel" name="usrtel"></td>
+                    </tr>
+                </table>
+            </div>
+            <hr/>
+            <div>
+                <h2>保險用資料</h2>
+                <p>以下內容僅用於此次保保險之用。</p>
+                <table>
+                    <tr>
+                        <th rowspan="2">性別</th>
+                        <td><input type="radio" name="性別" value="男">男</td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="性別" value="女">女</td>
+                    </tr>
+                    <tr>
+                        <th>身分證字號</th>
+                        <td><input type="test" name="身分證字號"></td>                       
+                    </tr>
+                    <tr>
+                        <th>出生年月日</th>
+                        <td><input type="date" mame="bday"></td>
+                    </tr>
+                </table>
+            </div>
+            <hr/>
+            <div>
+                <h2>組別選擇</h2>
+                <p>請各位ＴＡ們選擇您們可以的周次，可複選，以利安排組別，感謝各位配合。</p>
+                <table>
+                    <tr>
+                        <th rowspan="4">組別</th>
+                        <td><input type="checkbox" name="組別" value="1"></td><td>第一組（3/5-3/8）</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="組別" value="2"></td><td>第二組（3/12-3/15）</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="組別" value="3"></td><td>第三組（3/19-3/22）</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="組別" value="4"></td><td>第四組（3/26-3/29）</td>
+                    </tr>            
+                </table>
+            </div>
+            <hr/>
+            <div>
+                <h2>公假</h2>
+                <p>公假部分分為系上課程與非系上課程，請詳細填寫，以利ＴＡ協助跑公假單。</p>
+                <table>
+                    <tr>
+                        <th rowspan="7">系上課程</th>
+                        <td><input type="checkbox" name="課程" value="001"></td><td>(二)1-2、<br>個案管理與照護計畫</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="課程" value="002 "></td><td>(二)5-6、<br>長期照護績效與評估</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="課程" value="003"></td><td>(二)7-8、<br>長期照護產業管理實務綜論</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="課程" value="004"></td><td>(二)5-6、<br>長期照護專案規劃與管理</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="課程" value="005"></td><td>(二)7-8、<br>專業團隊實務運作</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="課程" value="006"></td><td>(三)1-2、<br>長期照護品質管理</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="課程" value="007"></td><td>(三)3-4、<br>老人住宅概論</td>
+                    </tr>
+                    <tr>
+                        <th>非系上課程</th>
+                        <td colspan="2">
+                            <p><small>(星期)節次、課名、老師、上課教室<br>EX：(五)2-4、網頁設計、陳鍾誠、E320</small></p>
+                            <ol>
+                                <li><input class="classA" type="test" value=""></li>
+                                <li><input class="classA" type="test" value=""></li>
+                                <li><input class="classA" type="test" value=""></li>
+                                <li><input class="classA" type="test" value=""></li>
+                                <li><input class="classA" type="test" value=""></li>
+                                <li><input class="classA" type="test" value=""></li>
+                                <li><input class="classA" type="test" value=""></li>
+                            </ol>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <hr/>
+            <h3>感謝您填完此表單，待組別確定後會儘速通知您。</h3>
+            <button><input type="submit"></button>
+        </form>
     </body>
 </html>
