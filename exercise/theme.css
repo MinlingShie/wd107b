@@ -1,22 +1,26 @@
-    body{
-        background-color:#FFFFF0;
-        color:navy;
-        font-family: Arial;
-        text-align: center;
-        margin: 5px;
-    }
-    button{
-        background-color: cornflowerblue;
-        color: black;
-        border: 1px solid #FFFFF0;
-        border-radius: 5px;
-    }
-    td
-    {
-        background-color:white;
-        color:black;
-        font-size:20px;
-        text-align:center;
-        padding:10px;
-        border:2px solid #FFFFF0;
-    }
+body{
+    background-color:#FFFFF0;
+    text-align: center;
+}
+p,h1,h2{
+    color:navy;
+    font-family: Arial;
+    text-align: center;
+    margin: 5px;
+}
+button{
+    background-color: cornflowerblue;
+    color: black;
+    border: 1px solid #FFFFF0;
+    border-radius: 5px;
+    font-size:20px;
+    padding:10px;
+}
+tr,td{
+    background-color:white;
+    color:black;
+    font-size:20px;
+    text-align:center;
+    padding:10px;
+    border:2px solid #FFFFF0;
+}
