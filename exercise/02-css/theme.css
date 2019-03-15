@@ -1,26 +1,46 @@
 body{
     background-color:#FFFFF0;
-    text-align: center;
 }
-p,h1,h2{
+h1,h2{
+    text-align: center;
     color:navy;
     font-family: Arial;
+    margin: 10px;
+    max-width: 500px;
+}
+p,hr{
     text-align: center;
-    margin: 5px;
+    color: black;
+    font-family: Arial;
+    margin: 10px;
+    max-width: 500px;
+}
+hr{
+    border: 2px solid gray;
+    width: 500px;
 }
 button{
     background-color: cornflowerblue;
-    color: black;
+    color: maroon;
     border: 1px solid #FFFFF0;
     border-radius: 5px;
     font-size:20px;
     padding:10px;
 }
-td{
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+td,th{
     background-color:white;
     color:black;
     font-size:20px;
     text-align:center;
-    padding:10px;
+    padding:15px;
     border:2px solid #FFFFF0;
+}
+form{
+    width: 500px;
+    max-width: 500px;
+    text-align: center;
 }
