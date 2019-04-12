@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>手機可適用的網站</title>
+        <style>
+            
+            body{
+                margin: 0px;
+            }
+            /*上方*/
+            .top{
+                overflow: hidden;
+                background-color: cornflowerblue;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .top a{
+                float: left;
+                font-size: 16px;
+                color: black;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            .top a:hover{
+                color: brown;
+                background-color: white;
+            }
+            /*下拉*/
+            .dropdown{
+                float: right;
+                overflow: hidden;
+            }
+            .dropdown .dropbtn{
+                cursor: pointer;
+                font-size: 16px;
+                border: none;
+                outline: none;
+                background-color: cornflowerblue;
+                color: black;
+                padding: 16px 14px;
+                font-family: inherit;
+                margin: 0px;
+            }
+            .dropdown-content{
+                display: none;
+                position: absolute;
+                background-color: white;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px black;
+                z-index: 2;
+            }
+            .dropdown-content a{
+                color: black;
+                padding: 16px 14px;
+                text-decoration: none;
+                display: block;
+                float: left;
+                text-align: center;
+            }
+            .dropdown-content a:hover{
+                background-color: navy;
+                color: white;
+            }
+            .dropdown:hover .dropdown-content{
+                display: block;
+            }
+            .dropdown:hover .dropbtn{
+                background-color: white;
+            }
+            /*左*/
+            .sidebar{
+                position: fixed;
+                left: 0px;
+                top: 50px;
+                width: 0.5%;
+                margin: 0;
+                background-color: cornflowerblue;
+                height: 100%;
+                overflow: auto;
+                white-space: nowrap;
+                padding: 10px 5px;
+            }
+            .sidebar a{
+                display: block;
+                color: white;
+                text-decoration: none;
+            }
+            .sidebar ul, .sidebar li{
+                list-style: none;
+                margin: 5px 10px;
+                padding: 10px;
+            }
+            /*左動*/
+            .sidebar{
+                transition: 1s;
+            }
+            .sidebar a:hover{
+                color: red;
+                background-color: white;
+            }
+            .sidebar:hover{
+                width: 150px;
+            }
+            .text{
+                margin: 10px;
+                text-align: center;
+                color: rgb(10,10,10);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="top">        
+            <a href="#home">首頁</a>
+            <a href="#news">最新消息</a>
+            <div class="dropdown">
+                <button class="dropbtn">相關連結</button>
+                <div class="dropdown-content">
+                    <a href="#FB">Facebook</a>                        <a href="#TW">Twitter</a>
+                    <a href="#IG">Instagram</a>
+                    <a href="#YT">Youtube</a>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar">
+            <ul>
+                <li><a href="#">組織簡介</a></li>
+                <li><a href="#">最新消息</a></li>
+                <li><a href="#">活動花絮</a></li>
+                <li><a href="#">提問專區</a></li>
+                <li><a href="#">參與我們</a></li>
+                <li><a href="#">會員登錄</a></li>
+            </ul>
+        </div>
+        <div class="text">
+            <h1>No Name Organization</h1>
+            <h2>（ＮＮＯ）</h2>
+            <p>Welcome to "No Name Organization"</p>
+            <p>歡迎來到沒有名稱的組織，如果沒興趣，請右上角叉叉點下去．</p>
+            <p>(使用Mac電腦的用戶，請左上角叉叉殿下區喔！)</p>
+            <p>如果對此組織有興趣的話，請從左方選單進入組織簡介去了解一下吧！</p>
+            <p>懶得看那麼多文字的話，右上角相關資訊有本組織經營的其他網頁如ＦＢ、ＩＧ、Instagram等可以去看看喔！～</p>
+            <hr>
+            <p>再來看看一些照片放鬆吧！</p>
+            <img src="=../../../picture/S__94642178.jpg"/>
+            <p class=>上の写真はうちの猫です。</p>
+            <img src="../../../picture/osakajou.png"/>
+            <p class=>上の写真は大阪城です。</p>
+            <img src="../../../picture/jinnja.png"/>
+            <p class=>上の写真は伏見稲荷大社で撮りました。</p>
+            <img src="../../../picture/shirokawa.png"/>
+            <p class=>上の写真は白川の桜です。</p>
+        </div>
+    </body>
+</html>
