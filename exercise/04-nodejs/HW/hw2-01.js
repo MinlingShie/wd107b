@@ -10,8 +10,8 @@ function factorial(n){
         console.log('i=',i,'r=',r)
         i=i+1
     }
-    return i;
+    return r;
 }
 
 var f=factorial(10)
-console.log(f)
+console.log('10!=',f)
