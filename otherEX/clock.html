@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function showTime() {
+    var today=new Date();/*目前日期*/
+    var h=today.getHours();/*目前小時*/
+    var m=today.getMinutes();/*目前分鐘*/
+    var s=today.getSeconds();/*目前秒數*/
+    document.getElementById('time').innerHTML = h+":"+m+":"+s;/*相加一同顯示*/
+    setTimeout(function(){showTime()},500);/*showtime*/
+}
+</script>
+</head>
+
+<body onload="showTime()">
+    /*showtime*/
+<div id="time"></div>
+
+</body>
+</html>
