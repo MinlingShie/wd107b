@@ -2,6 +2,7 @@ body{
     background-color: #ffffff;
     text-align: center;
     color: black;
+    margin: 0px;
 }
 img{
     max-width: 80%;
@@ -11,4 +12,68 @@ img:hover{
     transition: 1s;
     max-width: 100%;
     max-height: 100%;
+}
+h1{
+    margin: 2%;
+}
+p{
+    margin: 2% 5%;
+}
+/*上方*/
+.top{
+    overflow: hidden;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+.top a{
+    float: left;
+    font-size: 16px;
+    color:#ffffff;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.top a:hover{
+    color: brown;
+    background-color: white;
+}
+/*下拉*/
+.dropdown{
+    float: right;
+    overflow: hidden;
+}
+.dropdown .dropbtn{
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: cornflowerblue;
+    color: black;
+    padding: 16px 14px;
+    margin: 0px;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px black;
+    z-index: 2;
+}
+.dropdown-content a{
+    color: black;
+    padding: 14px 14px;
+    text-decoration: none;
+    display: block;
+    float: left;
+    text-align: center;
+}
+.dropdown-content a:hover{
+    background-color: navy;
+    color: white;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown:hover .dropbtn{
+    background-color: white;
 }
