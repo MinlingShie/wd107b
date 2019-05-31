@@ -1,0 +1,14 @@
+body{
+    background-color: #ffffff;
+    text-align: center;
+    color: black;
+}
+img{
+    max-width: 80%;
+    max-height: 80%;
+}
+img:hover{
+    transition: 1s;
+    max-width: 100%;
+    max-height: 100%;
+}
