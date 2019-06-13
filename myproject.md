@@ -16,6 +16,7 @@
 
 ## 3. 點擊顯示
 
-連結：[https://minlingshie.github.io/wd107b/final/project/02_changeImage.md](說明＿點擊顯示)
+連結：[https://minlingshie.github.io/wd107b/final/project/03_nodejs.md](說明＿點擊顯示)
 
-## 4.
+## 4.if、顯示時間
+連結：[https://minlingshie.github.io/wd107b/final/project/04_home.md](說明＿if、顯示時間)
