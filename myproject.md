@@ -8,7 +8,7 @@
 
 ## 1. 計算機
 
-連結：[calculator](final/project/01_calculator.md)
+連結：[final/project/01_calculator.md](calculator)
 
 ## 2. 
 
