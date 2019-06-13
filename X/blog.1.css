@@ -79,6 +79,40 @@ p{
 .dropdown:hover .dropbtn{
     background-color: white;
 }
+/*左*/
+.sidebar{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 0.2%;
+    margin: 0;
+    background-color: cornflowerblue;
+    height: 100%;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px 5px;
+}
+.sidebar a{
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+.sidebar ul, .sidebar li{
+    list-style: none;
+    margin: 5px 10px;
+    padding: 10px;
+}
+/*左動*/
+.sidebar{
+    transition: 1s;
+}
+.sidebar a:hover{
+    color: red;
+    background-color: white;
+}
+.sidebar:hover{
+    width: 150px;
+}
 /*p*/
 .text{
     text-align: center;
