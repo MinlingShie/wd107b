@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>網頁設計期末專題-計算機</title>
+        <link rel="stylesheet" type="text/css" href="../blog.css">
+    </head>
+    <body>
+        <div class="top">
+            <a href="../110414209.html">Home</a>
+            <a href="https://github.com/MinlingShie">Github</a>
+            <div class="dropdown">
+                <button class="dropbtn">作品區</button>
+                <div class="dropdown-content">
+                    <a href="Java01.html">計算機</a>
+                    <a href="Java02.html">嘗試點點看</a>
+                    <a href="NodeJs.html">Node.Js</a>
+                    <a href="#">A</a>
+                    <a href="#">其他</a>
+                </div>
+            </div>
+        </div>
+        <h1>計算機</h1>
+        <p>歡迎試著輸入數字後，選擇要計算，
+            <br>「➕」「➖」「✖️」「➗」後，
+            <br>點下確認鍵，即可得到解答．</p>
+        <div>
+            <script>
+                function calculate() {
+                    var a = document.getElementById('a')
+                    var op = document.getElementById('op')
+                    var b = document.getElementById('b')
+                    var result = document.getElementById('result')
+                    result.innerText = eval(a.value + op.value + b.value)
+                }
+            </script>
+            <div class="calculator">    
+                <input class="calculator" id="a" type="text" value="3"/>
+                <select id="op">
+                <option value="+">➕</option>
+                <option value="-">➖</option>
+                <option value="*" selected>️️✖️</option>
+                <option value="/">➗</option>
+                </select>
+                <input class="calculator" id="b" type="text" value="5"/>
+                <p class="cal">
+                = <b><label id="result"></label></b></p>
+                <button onclick="calculate()">計算</button>
+            </div>
+        </div>
+    </body>
+</html>

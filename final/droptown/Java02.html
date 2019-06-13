@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>網頁設計期末專題＿嘗試點點看</title>
+        <link rel="stylesheet" type="text/css" href="../blog.css">
+    </head>
+    <body>
+        <div class="top">
+            <a href="../110414209.html">Home</a>
+            <a href="https://github.com/MinlingShie">Github</a>
+            <div class="dropdown">
+                <button class="dropbtn">作品區</button>
+                <div class="dropdown-content">
+                    <a href="Java01.html">計算機</a>
+                    <a href="Java02.html">嘗試點點看</a>
+                    <a href="NodeJs.html">Node.Js</a>
+                    <a href="#">其他</a>
+                </div>
+            </div>
+        </div>
+        <h1>出遊照片區</h1>
+        <p>
+            請試著點點看下方照片們，<br/>
+            會出現一些心情小語錄喔！～
+        </p>
+        <script>
+        function changeImage(){
+            element=document.getElementById('osaka')
+            if (element.src.match("osakajou"))
+            {
+                element.src="../img/osakajou.png";
+            }
+            else
+            {
+                element.src="../img/osaka.png";
+            }
+        }
+        </script>
+        <img id="osaka" onclick="changeImage()" src="../img/osakajou.png" width="80%" height="80%">
+    </body>
+</html>
