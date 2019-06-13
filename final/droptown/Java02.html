@@ -21,22 +21,37 @@
         </div>
         <h1>出遊照片區</h1>
         <p>
-            請試著點點看下方照片們，<br/>
-            會出現一些心情小語錄喔！～
+            請試著點點看下方照片們吧～<br/>
         </p>
+        <div>
         <script>
-        function changeImage(){
-            element=document.getElementById('osaka')
-            if (element.src.match("osakajou"))
-            {
-                element.src="../img/osakajou.gif";
+            function changeImg(){
+                var s1 = document.getElementById('osaka')
+                s1.src = s1.src.match('osakajou')?"../img/osaka.gif":"../img/osakajou.gif";
             }
-            else
-            {
-                element.src="../img/osaka.gif";
-            }
-        }
-        </script>
-        <img id="osaka" onclick="changeImage()" src="../img/osakajou.gif" width="80%" height="80%">
+            </script>
+            <img id="osaka" onclick="changeImg()" src="../img/osakajou.gif"/>
+        </div>
+        <br/>
+        <div>
+            <script>
+                function changeImage(){
+                    var s2 = document.getElementById('jinn')
+                    s2.src = s2.src.match('jinnja')?"../img/jinn.png":"../img/jinnja.png";
+                }
+            </script>
+            <img id="jinn" onclick="changeImage()" src="../img/jinnja.png"/>
+        </div>
+        <br/>
+        <div>
+            <script>
+                function changeIMG(){
+                    var s3 = document.getElementById('siro')
+                    s3.src = s3.src.match('shirokawa')?"../img/si.png":"../img/shirokawa.png";
+                }
+            </script>
+            <img id="siro" onclick="changeIMG()" src="../img/shirokawa.png"/>
+        </div>
+    
     </body>
 </html>
