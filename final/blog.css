@@ -169,3 +169,13 @@ label{
     margin: 1%;
     margin-left: 10%;
 }
+/*Node.js*/
+.jsbt{
+    cursor: pointer;
+    font-size: 16px;
+    border: 10px solid rgb(63, 63, 63);
+    outline: none;
+    background-color: rgb(53, 53, 54);
+    color: white;
+    padding: 14px;
+}

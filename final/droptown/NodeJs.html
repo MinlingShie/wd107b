@@ -15,7 +15,6 @@
                     <a href="Java01.html">計算機</a>
                     <a href="Java02.html">嘗試點點看</a>
                     <a href="NodeJs.html">Node.Js</a>
-                    <a href="#">其他</a>
                 </div>
             </div>
         </div>
@@ -29,13 +28,19 @@
             <p><br/>
                 console.log('something you want to show')
             <br/><br/></p>
-        </div>
-        <p>以上結果如下：</p>
+        </div><br/>
+        <button class="jsbt" onclick="hello()">顯示結果</button><br/><br/>
         <div class="node-out">
-            <p><br/>
-                something you want to show
-            <br/><br></p>
+            <br/>
+            <p id="hello"></p>
+            <br>
         </div>
+        <script>
+            function hello(){
+                var H ="something you want to show";
+                document.getElementById("hello").innerHTML=H;
+            }
+        </script>
         <br/><hr/>
 
         <!--for.js-->
@@ -48,14 +53,21 @@
                 else<br/>
                 &nbsp&nbsp console.log('恭喜您獲得再一次學習的機會') <br/>
             <br/></p>
-        </div>
-        <p>以上結果如下：</p>
-        <div class="node-out">
-            <p><br/>
-                恭喜您獲得再一次學習的機會<br/><br/>
-            </p>
+        </div><br/>
+        <button class="jsbt" onclick="score()">顯示結果</button><br/><br/>
+        <div class="node-out"><br/>
+            <p id='score'></p><br/>
+            <script>
+                function score(){
+                    var s ="恭喜您獲得再一次學習的機會";
+                    document.getElementById("score").innerHTML=s;
+                }
+            </script>
+            
         </div>
         <br/><hr/>
+
+
 
         <!--10!-->
         <h3>請寫一個程式計算 10! ，也就是 10*9*8*....*1。</h3>
@@ -65,30 +77,24 @@
             &nbsp&nbsp var i=1,r=1;<br/>
             &nbsp&nbsp while(i<=n){<br/>
                 &nbsp&nbsp&nbsp&nbsp r=r*i<br/>
-                &nbsp&nbsp&nbsp&nbsp console.log('i=',i,'r=',r)<br/>
                 &nbsp&nbsp&nbsp&nbsp i=i+1<br/>
             &nbsp&nbsp }<br/>
             &nbsp&nbsp return r;<br/>
             }<br/>
             <br/>
             var f=factorial(10)<br/>
-            console.log('10!=',f)<br><br></p></div>
-        <p>以上結果如下：</p>
-        <div class="node-out">
-            <p><br/>
-                i= &nbsp 1 &nbsp r=1<br/>
-                i= &nbsp 2 &nbsp r=2<br/>
-                i= &nbsp 3 &nbsp r=6<br/>
-                i= &nbsp 4 &nbsp r=24<br/>
-                i= &nbsp 5 &nbsp r=120<br/>
-                i= &nbsp 6 &nbsp r=720<br/>
-                i= &nbsp 7 &nbsp r=5040<br/>
-                i= &nbsp 8 &nbsp r=40320<br/>
-                i= &nbsp 9 &nbsp r=362880<br/>
-                i= &nbsp 10 &nbsp r=3628800<br/>
-                <b>10!= &nbsp 13628800</b><br/><br/>
-            </p>
+            console.log('10!=',f)<br><br></p>
+        </div><br/>
+        <button class="jsbt" onclick="ten()">顯示結果</button><br/><br/>
+        <div class="node-out"><br/>
+            <p id='ten'></p><br/>
         </div>
+        <script>
+            function ten(){
+                var t ='10! = 13628800';
+                document.getElementById("ten").innerHTML=t;
+            }
+        </script>
 
 
         <!--99-->
