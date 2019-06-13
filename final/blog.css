@@ -5,13 +5,13 @@ body{
     margin: 0px;
 }
 img{
-    max-width: 90%;
-    max-height: 90%;
+    max-width: 85%;
+    max-height: 85%;
 }
 img:hover{
     transition: 1s;
-    max-width: 101%;
-    max-height: 101%;
+    max-width: 95%;
+    max-height: 95%;
 }
 h1{
     margin: 2%;
