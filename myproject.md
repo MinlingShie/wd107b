@@ -18,5 +18,5 @@
 
 連結：[說明＿點擊顯示](final/project/03_nodejs/03_nodejs.md)
 
-## 4.if、顯示時間
+## 4. if、顯示時間
 連結：[說明＿if、顯示時間](final/project/04_home/04_home.md)
