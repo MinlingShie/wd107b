@@ -8,15 +8,15 @@
 
 ## 1. 計算機
 
-連結：[https://minlingshie.github.io/wd107b/final/project/01_calculator.md](說明＿計算機)
+連結：[final/project/01_calculator/](說明＿計算機)
 
 ## 2. 圖片變換
 
-連結：[https://minlingshie.github.io/wd107b/final/project/02_changeImage.md](說明＿圖片變換)
+連結：[final/project/02_changeImage/](說明＿圖片變換)
 
 ## 3. 點擊顯示
 
-連結：[https://minlingshie.github.io/wd107b/final/project/03_nodejs.md](說明＿點擊顯示)
+連結：[final/project/03_nodejs/](說明＿點擊顯示)
 
 ## 4.if、顯示時間
-連結：[https://minlingshie.github.io/wd107b/final/project/04_home.md](說明＿if、顯示時間)
+連結：[final/project/04_home/](說明＿if、顯示時間)
