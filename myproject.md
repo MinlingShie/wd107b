@@ -12,11 +12,11 @@
 
 ## 2. 圖片變換
 
-連結：[說明＿圖片變換](https://minlingshie.github.io/wd107b/final/project/02_changeImage/2_changeImage.md)
+連結：[說明＿圖片變換](final/project/02_changeImage/02_changeImage.md)
 
 ## 3. 點擊顯示
 
 連結：[說明＿點擊顯示](final/project/03_nodejs/03_nodejs.md)
 
 ## 4. if、顯示時間
-連結：[說明＿if、顯示時間](https://minlingshie.github.io/wd107b/final/project/04_home/04_home.md)
+連結：[說明＿if、顯示時間](final/project/04_home/04_home.md)
