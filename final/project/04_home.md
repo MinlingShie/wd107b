@@ -20,7 +20,7 @@
     font-size: 200%;
 }
 ```
-此項目說明可以「[https://minlingshie.github.io/wd107b/final/project/02_changeImage.md](說明＿圖片變換)」類推。
+此項目說明可以「[https://minlingshie.github.io/wd107b/final/project/02_changeImage/02_changeImage.md](說明＿圖片變換)」類推。
 
 
 因時間不同，而會顯示出不同的招呼語，其主要是使用Javascript：
