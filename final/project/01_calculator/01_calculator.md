@@ -1,6 +1,6 @@
 # 計算機
 ## 網站
-  [https://minlingshie.github.io/wd107b/final/droptown/Java01.html](網頁設計期末-計算機)
+  [網頁設計期末-計算機](https://minlingshie.github.io/wd107b/final/droptown/Java01.html)
 
 
 ## 功能與說明

@@ -1,6 +1,6 @@
 # if、顯示時間
 ## 網站
-  [https://minlingshie.github.io/wd107b/final/110414209.html](網頁設計期末)
+  [網頁設計期末](https://minlingshie.github.io/wd107b/final/110414209.html)
 
 
 ## 功能與說明
